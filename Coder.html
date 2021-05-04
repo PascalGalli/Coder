@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<title>Coder</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Codificatore di messaggi di testo">
+	<meta name="keywords" content="HTML,CSS,JavaScript">
+	<meta name="author" content="Pascal Galli">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- EXTERNAL CSS FILES -->
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+	<!-- COLLEGAMENTO A FAVICON -->
+	<link rel="shortcut icon" type="image/png" href="assets/icon.png">
+
+	<!-- Date creation: 26.04.2021		Last edit: 24.06.2021 -->
+	<!-- Browser: Google Chrome			OS: Windows 10 -->
+</head>
+<body>
+
+	<!-- PIAZZARE UN HEADER -->
+
+	<form id="form">
+		<div class="container">
+			<input type="text" id="title" placeholder="Title">
+			<input type="number" id="ckey" placeholder="Key" min="1" max="128"> <br> <br>
+			<input type="text" id="inputtxt" placeholder="Text" onkeyup="liveUpdate()"> <br> <br>
+			<textarea id="text-val" disabled></textarea>
+		</div>
+		<input type="button" id="dwn-btn" value="Download">
+	</form>
+	
+	
+
+	<!-- Importo il file JavaScript -->
+	<script src="assets/script.js"></script>
+
+</body>
+</html>
